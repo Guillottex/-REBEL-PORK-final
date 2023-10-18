@@ -1,67 +1,6 @@
 
   
-  /* Menu */
-  
-  .grid-Menu {
-    height: 140;
-    background-color: rgba(77, 104, 179, 0.615);
-    display: grid;
-    grid-auto-flow: dense;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .logo {
-    display: flex;
-    justify-content: center;
-    width: 100px;
-  }
-  
-  /* Texts and Links */
-  
-  .grid-menu-1, .grid-menu-h1 {
-    text-align: center;
-    color: #000;
-  }
-  
-  /* Main and Containers */
-  
-  main {
-    display: grid;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .Contenedor-Form, .Contenedor-Form2, .ContenedorProductos {
-    border: 2px solid #448371;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #333;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  
 
-  
-  /* Productos */
-  
-  .imgProductos {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin: 10px 0;
-  }
-  
-  /* Iframe */
-  
-  iframe {
-    display: grid;
-    margin: auto;
-  }
   
   /* Home */
   
@@ -89,48 +28,14 @@
     margin: 10px 0;
     padding: auto;
   }
+
   
-  .contacto-submit {
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: #3498db;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  @media screen and (max-width: 768px) {
-    body {
-      margin: 10px;
-      padding: 10px;
-    }
-  
-    .grid-header, .grid-Menu {
-      height: auto;
-      padding: 5px;
-      text-align: center;
-    }
-  
-    .grid-menu-h1 {
-      font-size: 30px;
-    }
-  
-    nav ul {
-      flex-direction: column;
-      margin-right: 0;
-    }
-  
-    nav ul li {
-      margin-left: 0; 
-      margin-bottom: 10px;
-    }
-  }
 @import "General";
 @import "Variables";
+@import "Productos";
 @import "Footer";
 @import "Header";
 @import "Donde_estamos";
 @import "Vende_nuestros_productos";
-@import "Productos";
 @import "Nosotros";
 
