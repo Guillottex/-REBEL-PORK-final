@@ -1,0 +1,11 @@
+  /* Header */
+  
+  .grid-header {
+    height: 140;
+    background-color: rgba(77, 104, 179, 0.615);
+    display: grid;
+    grid-auto-flow: dense;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }

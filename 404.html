@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Error 404: Página No Encontrada</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #a8a8a8;
+            text-align: center;
+            padding: 100px;
+        }
+
+        h1 {
+            font-size: 72px;
+            color: #ff0000;
+        }
+
+        p {
+            font-size: 24px;
+            color: #333;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+        }
+
+        #dance {
+            width: 150px;
+            height: auto;
+            animation: dance 2s infinite;
+        }
+
+        @keyframes dance {
+            0% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(10deg);
+            }
+            50% {
+                transform: rotate(0deg);
+            }
+            75% {
+                transform: rotate(-10deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Error 404</h1>
+    <img id="dance" src="https://media.giphy.com/media/14uQ3cOFteDaU/giphy.gif" alt="Error 404">
+    <p>¡Ups! Parece que te has perdido en el ciberespacio. Esta página no existe.</p>
+    <p>¡Mientras tanto, disfruta del baile de nuestro amigo 404!</p>
+    <p><a href="/">Volver a la página de inicio</a></p>
+</body>
+</html>

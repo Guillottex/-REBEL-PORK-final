@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+
+        background-image: url('../img/fondo.jpg');
+        background-size: auto;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 20px;
+        padding: 20px;
+
+}
+
+
+/* Header */
+
+
+.grid-header {
+
+    height: 140;
+    background-color:#4d68b39d;
+    display: grid;
+    grid-auto-flow:dense;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-Menu {
+
+    height: 140;
+    background-color:#4d68b39d;
+    display: grid;
+    grid-auto-flow:dense    ;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100px;
+}
+
+/*  textos del home / productos */
+
+.grid-menu-1  {
+
+    text-align:center;
+    color: #000000;     
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+}
+
+nav ul li {
+    margin-left: 20px; 
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #9bb2f2; 
+}
+
+/* Main */
+
+main {
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+
+       
+}
+
+
+.Contenedor-Form2 {
+    border: 2px solid #448371;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    text-align: center;
+    font-weight:900;
+    font-size: 20px;
+
+}
+
+
+
+/* texto nuestra historia */
+
+.gird-texto1{
+
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: (auto-fit, minmax(40%, 60%, 2fr)); 
+
+}
+.gird-texto2{
+
+        display: grid;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: (auto-fit, minmax(40%, 60%, 2fr)); 
+    
+}
+
+.Remarcado { 
+         
+    text-decoration: underline;
+  }
+
+
+/* Titulos  h1 h2 h3 h4 h5 */
+
+h1  {
+
+    text-align:center;
+    text-decoration: underline;
+    margin: 20px 0;
+    color: #000000; /* Color de título */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    background-color: rgba(63, 58, 58, 0.288);
+    font-size: 50px;
+}
+
+h2 {
+
+
+    text-decoration: underline;
+    margin: 20px 0;
+    color: #000000; /* Color de título */
+
+    display:inline-block;
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 25px;
+}
+
+h3 {
+    text-align:inherit;
+    margin: 16px 0;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    justify-content: center;
+}
+
+h4 {
+
+    text-align:center;
+    text-decoration: underline;
+    margin: 20px 0;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+h5 {
+    text-align: center;
+    margin: 16px 0;
+    color: #000000;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    margin: 16px 0;
+}
+h3 {
+    text-align: center;
+    margin: 16px 0;
+    font-size: 20px;
+}
+
+/* Footer */
+
+.grid-footer {
+
+    height: 140x;
+    background-color:#4d68b39d;
+    display: grid;
+    grid-auto-flow: dense;
+    padding: 10px;
+    justify-content:center;
+
+}
+
+
+
+
+/* Productos */
+
+.ContenedorProductos {
+    margin: 20px;
+    border: 2px solid #5E8B7E;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 10px; 
+    align-items: center;
+    justify-content: center; 
+
+}
+
+/* formulario */
+
+.Contenedor-Form {
+
+    border: 2px solid #448371;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.imgProductos {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Iframe */
+
+iframe {
+    display: grid;
+    margin: auto;
+}
+
+/* Formulario */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #165f4a;
+}
+
+/* Home */
+
+.grid-ContenedorHome {
+    background-color: rgba(230, 197, 106, 0.5); 
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    place-items: center; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   
+}
+
+
+.imgHome {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    max-width: 900px; 
+    height: auto;
+    margin: 10px 0;
+    padding: auto;
+}
+
+.contacto-submit {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    .grid-header, .grid-Menu {
+      height: auto;
+      padding: 5px;
+      text-align: center;
+    }
+  
+
+    .grid-menu-h1 {
+      font-size: 30px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      margin-right: 0;
+    }
+  
+    nav ul li {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+ }
+
+
+
+
+/* Productos */
+
+.ContenedorProductos {
+    margin: 20px;
+    border: 2px solid #5E8B7E;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 10px; 
+    align-items: center;
+    justify-content: center; 
+
+}
+
+/* formulario */
+
+.Contenedor-Form {
+
+    border: 2px solid #448371;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.imgProductos {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Iframe */
+
+iframe {
+    display: grid;
+    margin: auto;
+}
+
+/* Formulario */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #165f4a;
+}
+
+/* Home */
+
+.grid-ContenedorHome {
+    background-color: rgba(230, 197, 106, 0.5); 
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    place-items: center; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   
+}
+
+
+.imgHome {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    max-width: 900px; 
+    height: auto;
+    margin: 10px 0;
+    padding: auto;
+}
+
+.contacto-submit {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    .grid-header, .grid-Menu {
+      height: auto;
+      padding: 5px;
+      text-align: center;
+    }
+  
+    .grid-menu-h1 {
+      font-size: 30px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      margin-right: 0;
+    }
+  
+    nav ul li {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+ }

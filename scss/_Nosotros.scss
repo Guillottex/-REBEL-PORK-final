@@ -1,0 +1,16 @@
+/* texto nuestra historia */
+
+.gird-texto1{
+
+  display: grid;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  align-items: center;
+  justify-content: center;
+  background-color: $sombreado_principal;
+  font-size: 50px;
+  
+
+}

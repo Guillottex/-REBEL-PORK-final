@@ -1,0 +1,26 @@
+/* Productos */
+
+.ContenedorProductos {
+  margin: 20px;
+  border: 2px solid #5E8B7E;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 10px; 
+  align-items: center;
+  justify-content: center; 
+
+}
+
+img:hover {
+
+  transform: scale(1.2);
+  transition: 1s;
+
+}
