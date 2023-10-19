@@ -4,13 +4,14 @@
   margin: 20px;
   border: 2px solid #5E8B7E;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: $sombreado_principal;
   color: #333;
   text-align: center;
-  padding: 20px;
+  padding-top: 20px;
   font-weight: bold;
   font-size: 20px;
   display: grid;
+  justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
   gap: 10px; 
   align-items: center;
@@ -27,5 +28,27 @@
     max-width: 300px;
     height: auto;
     margin: 10px 0;
+    
+
   }
   
+
+  .imgProductos:hover {
+
+    transform: scale(1.1);
+    transition: 2s;
+  }
+  
+.grid-texto {
+
+text-align: center;
+text-decoration-color: azure;
+
+}
+
+.h2-productos {
+
+  text-align: center;
+  color: azure;
+
+}
