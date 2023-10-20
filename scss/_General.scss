@@ -168,5 +168,24 @@ body {
   nav ul li {
     margin-left: 0; 
     margin-bottom: 10px;
+ 
   }
+
+  .responsive-iframe {
+    
+      height: 200px; /* Ajusta la altura para pantallas pequeñas */
+    }
+
+    .Contenedor-Form2 {
+
+      padding: 5% 1%
+      
+    }
+    main {
+      display: grid;
+      margin: 5px;
+      padding: 2px;
+
+  }
+  
 }
