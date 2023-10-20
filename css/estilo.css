@@ -138,7 +138,7 @@ main {
     margin: 10px;
     padding: 10px;
   }
-  .grid-header, .grid-Menu {
+  .grid-Menu {
     height: auto;
     padding: 5px;
     text-align: center;
@@ -160,7 +160,7 @@ main {
     margin: 10px;
     padding: 10px;
   }
-  .grid-header, .grid-Menu {
+  .grid-Menu {
     height: auto;
     padding: 5px;
     text-align: center;
@@ -239,6 +239,10 @@ main {
   justify-content: center;
 }
 
+.navbar navbar-expand-lg bg-body-tertiary {
+  background-color: rgba(77, 104, 179, 0.6156862745);
+}
+
 /* Header */
 .grid-header {
   height: 140;
@@ -247,7 +251,27 @@ main {
   grid-auto-flow: dense;
   padding: 10px;
   justify-content: center;
-  align-items: center;
+  justify-items: center;
+}
+
+.navbar-brand {
+  display: grid;
+  grid-auto-flow: dense;
+  padding: 10px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.nav-link.active {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.btn-outline-success {
+  --bs-btn-bg: rgba(230, 197, 106, 0.5);
 }
 
 .responsive-iframe {

@@ -7,5 +7,27 @@
     grid-auto-flow: dense;
     padding: 10px;
     justify-content: center;
-    align-items: center;
+    justify-items: center;
+  }
+
+  .navbar-brand {
+    display: grid;
+    grid-auto-flow: dense;
+    padding: 10px;
+    justify-content: center;
+    justify-items: center;
+  }
+    .nav-link.active {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    transition: color 0.3s ease;
+
+  }
+
+  .btn-outline-success {
+
+    --bs-btn-bg: rgba(230, 197, 106, 0.5);
+    
   }
