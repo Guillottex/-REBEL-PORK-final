@@ -127,9 +127,13 @@ main {
   border-radius: 5px;
 }
 
-.logo {
+animate__rotateIn .logo {
   display: flex;
   justify-content: center;
+  width: 100px;
+}
+
+.animate__animated {
   width: 100px;
 }
 

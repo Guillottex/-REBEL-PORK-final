@@ -108,14 +108,27 @@ body {
  
   }
   
-
+  animate__rotateIn
 
 
 .logo {
+
   display: flex;
   justify-content: center;
   width: 100px;
-}
+
+
+
+    }
+ 
+    .animate__animated {
+
+      width: 100px;
+
+    }
+
+
+
 
 
 @media screen and (max-width: 768px) {
