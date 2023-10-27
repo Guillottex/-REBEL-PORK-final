@@ -116,16 +116,13 @@ body {
   display: flex;
   justify-content: center;
   width: 100px;
-
-
-
     }
  
-    .animate__animated {
+.animate__animated {
 
-      width: 100px;
+  width: 100px;
 
-    }
+  }
 
 
 
@@ -202,3 +199,9 @@ body {
   }
   
 }
+
+  .responsive-map {
+    display: block;
+    width: 100%; /* Ancho del 100% por defecto */
+    height: 450px; /* Altura fija por defecto */
+  }
